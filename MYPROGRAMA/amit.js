@@ -22,3 +22,5 @@ const name = {
     idade: 40,
     cidade: "desconhecida",
 }
+console.log("meu nome é" + name.nome + "minha idade é" + name.idade + "e eu moro em" + name.cidade);
+console.log("meu nome é ${name.nome} minha idade é ${name.idade} e eu moro em ${name.cidade}");
