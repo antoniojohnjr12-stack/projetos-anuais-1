@@ -1,16 +1,8 @@
-:root {
-    --cor-principal:#1a0bba;
-    --cor-segundaria:#A020F0;
-    --cor-fundo:#20B2AA;
-    --tamanho-fonte:18px;
-}
-p {
-    color:var(--cor-principal);
-   font-size:var(--tamanho-fonte);
-}
-h1 {
-    color:var(--cor-segundaria);
-    font-family:var(--fonte-principal);
+root{
+    --cor-principal: #3498db;
+    --cor-secundaria: #2ecc71;
+    --cor-fundo: #ecf0f1;
+    --cor-texto: black;
 }
 body {
   background-color: white;
@@ -18,14 +10,16 @@ body {
 /*estilo geral(padrão)da pagina*/
 body{
     font-family: arial, sans-serif;
-    margin: 0;
+    margin:1,4;
 }
 /*só home*/
 body.home{
     background: lightblue;
+    color:#cc2e2e; /*cor texto vermelha*/
 }
 /*só sobre*/
 body.sobre{
     background: lightgreen;
+    color:blue; /*cor texto azul*/
 }
 
